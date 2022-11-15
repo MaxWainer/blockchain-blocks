@@ -1,7 +1,10 @@
 
-struct Block {
-    before: f64,
-    after: f64,
-    hash: str,
-    prev_hash: str
+#[derive(Serialize, Deserialize, Debug, Clone)]
+pub struct Block {
+    pub id: u64,
+    pub hash: str,
+    pub prev_hash: str,
+    pub timestamp: i64,
+    pub data: str,
+    pub nonce: u64
 }
