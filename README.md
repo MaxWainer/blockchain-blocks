@@ -1,1 +1,1 @@
-# blockchain-blocks
+# cryptocurrency-blockchain

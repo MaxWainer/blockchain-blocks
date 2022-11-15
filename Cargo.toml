@@ -1,5 +1,5 @@
 [package]
-name = "blockchain-blocks"
+name = "cryptocurrency-blockchain"
 version = "0.1.0"
 edition = "2021"
 
